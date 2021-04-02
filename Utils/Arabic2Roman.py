@@ -15,8 +15,8 @@ def arabic2roman(arabic_number):
 def roman2arabic(num):
     roman_numerals = roman_dict()
     result = 0
-    if num == '0':
-        return 'Incorrect Value'
+    if num == 'nulla':
+        return result
     else:
         for i, c in enumerate(num):
             if (i+1) == len(num) or roman_numerals[c] >= roman_numerals[num[i+1]]:
