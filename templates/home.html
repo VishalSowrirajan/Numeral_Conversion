@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylight</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/homePage.css') }}"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -18,9 +17,6 @@
     </div>
 
 </nav>
-    <header>
-        <h1 class="bg-light">Welcome to Stylight Coding Challenge</h1>
-    </header>
     <h3>Numeral Conversion (Arabic - Roman)</h3>
     <form method="post" action="{{ url_for('operation_result') }}" id="numeral_conversion_form" style="text-align: center">
         <label for="Input1">Input1:</label>
