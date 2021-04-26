@@ -14,6 +14,3 @@ python main.py
 ````
 
 The code was developed and tested using Python 3.7.6
-
-Below is the sample of the home page outlook:
-![NumeralConversion](static/Result/outlook_homePage.PNG) 
