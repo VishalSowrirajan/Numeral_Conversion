@@ -1,4 +1,4 @@
-# Stylight Coding Challenge
+# Simple Numeral Conversion
 
 To reproduce the repo, please follow the below steps:
 
